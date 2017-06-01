@@ -1,0 +1,41 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+header{
+	background-color: teal;
+	text-align: center;
+}
+
+nav{
+	background-color: #000;
+}
+
+nav li{
+	display: inline;
+	padding:5px;
+}
+nav a{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:yellow;
+}
+
+
+.content{
+	padding: 0 50px;
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:99%;
+   height:40px;   /* Height of the footer */
+   background:#000;
+   color:#fff;
+   text-align:center;
+}
